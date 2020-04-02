@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import utilities.BrowserFactory;
+import utilities.Driver;
 
 public class UnderstandingJavascriptExecutor {
 
@@ -13,12 +14,13 @@ public class UnderstandingJavascriptExecutor {
     @Test(priority = 0,description = "Send text to search box on etsy")
     public void test1(){
         //Driver instance created
-        WebDriver driver = BrowserFactory.getDriver("chrome");
+        WebDriver driver = Driver.getDriver("chrome_headless");
         //Navigating to etsy homepage
         driver.get("https://www.etsy.com/");
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("document.getElementById('global-enhancements-search-query').value='Send these characters'");
+        driver.quit();
 
     }
 
