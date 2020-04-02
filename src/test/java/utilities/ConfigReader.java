@@ -17,6 +17,7 @@ public class ConfigReader {
             properties.load(fileInputStream);
 
         }catch (Exception e){
+            System.out.println("The config file did not load");
             e.printStackTrace();
         }
     }
