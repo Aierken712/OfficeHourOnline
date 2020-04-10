@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="520e3f96-a64b-421f-bd01-2fc61c62f6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/UnderstandingJavascriptExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/UnderstandingJavascriptExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +178,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="444" y="18" key="CommitChangelistDialog2" timestamp="1586555677538">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="444" y="18" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1586555677538" />
     <state width="894" height="245" key="GridCell.Tab.0.bottom" timestamp="1585867123512">
       <screen x="0" y="0" width="1440" height="846" />
     </state>
